@@ -28,7 +28,13 @@ let allstars = [
         "name":"yaya",
         "active": false,
         "location":"SG"
-    }
+    },
+    {
+      "id":4,
+      "name":"boboi",
+      "active": true,
+      "location":"JP"
+  }
 
 ]
 
