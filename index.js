@@ -1,14 +1,14 @@
 //import express package
-const { text } = require('body-parser')
 let express = require('express')
-const { contentType } = require('mime-types')
-const { functionsHaveConfigurableLengths } = require('set-function-length/env')
+let cors = require('cors')
 
 // initialize express app
 let app = express()
 
 // configure express app to use JSON encoding/format
 app.use(express.json())
+
+app.use(cors())
 
 let allstars = [
     {
